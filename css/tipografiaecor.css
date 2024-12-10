@@ -1,0 +1,65 @@
+.font-1-a {
+  font-family: "Antic Didone";
+  font-weight: 400;
+  font-size: 5rem;
+  color: #a77554;
+  line-height: 110%;
+}
+.font-1-b {
+  font-family: "Antic Didone";
+  font-weight: 400;
+  font-size: 2.5rem;
+  color: #a77554;
+  line-height: 110%;
+}
+.font-1-c {
+  font-family: "Antic Didone";
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 160%;
+}
+
+.font-2-a {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1rem;
+  color: #363636;
+  line-height: 180%;
+}
+@media (max-width: 1000px) {
+  .font-1-a {
+    font-size: 4rem;
+  }
+}
+@media (max-width: 420px) {
+  .font-1-a {
+    font-size: 2.5rem;
+  }
+}
+:root {
+  --azul: #002047;
+  --branco: #ffffff;
+  --preto: #000000;
+  --branco-1: #faf5f2;
+  --m-claro: #cba189;
+  --m-escuro: #a77554;
+}
+
+.azul {
+  color: var(--azul);
+}
+.branco {
+  color: var(--branco);
+}
+.branco-1 {
+  color: var(--branco-1);
+}
+.preto {
+  color: var(--preto);
+}
+.m-claro {
+  color: var(--m-claro);
+}
+.m-escuro {
+  color: var(--m-escuro);
+}

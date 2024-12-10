@@ -1,0 +1,36 @@
+.funcionamento {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.grid-func {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.funcionamento h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.funcionamento .linha {
+  width: 100%;
+  height: 2px;
+  background-color: var(--azul);
+}
+.caixa-func {
+  text-align: center;
+}
+.caixa-func h3 {
+  font-weight: 900;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+@media (max-width: 1000px) {
+  .grid-func {
+    grid-template-columns: 1fr;
+  }
+  .funcionamento {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}

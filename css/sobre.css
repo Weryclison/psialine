@@ -1,0 +1,29 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  align-items: center;
+  gap: 80px;
+}
+.sobre-conteudo {
+  padding-left: 60px;
+}
+.sobre h2 {
+  margin-bottom: 40px;
+}
+.sobre p {
+  margin-bottom: 20px;
+}
+@media (max-width: 1000px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 80px;
+  }
+  .sobre-conteudo {
+    padding-left: 0px;
+  }
+  .sobre img {
+    width: 100%;
+  }
+}

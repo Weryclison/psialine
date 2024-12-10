@@ -1,0 +1,40 @@
+.quebra {
+  background-color: var(--azul);
+  text-align: center;
+  display: flex;
+}
+.quebra img {
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+.quebra p {
+  max-width: 710px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.quebra .botao {
+  border: 2px solid var(--branco) !important;
+  margin-bottom: 120px;
+}
+.footer .botao {
+  border: 2px solid var(--branco) !important;
+}
+
+.quebra .botao:hover,
+.footer .botao:hover {
+  color: var(--azul);
+  background-color: var(--branco);
+}
+
+@media (max-width: 1000px) {
+  .quebra {
+    margin-top: 80px;
+  }
+  .quebra img {
+    margin-top: 80px;
+  }
+  .quebra .botao {
+    margin-bottom: 80px;
+  }
+}
